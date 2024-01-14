@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .column-left {
+    flex: 1;
+    height: 1000vh; /* Ajusta la altura según tus necesidades */
+    overflow-y: scroll;
+    border: solid 3px red;
+  }
+  
+  .column-right {
+    flex: 1;
+    position: sticky;
+    top: 0;
+    height: 50vh; /* Ajusta la altura según tus necesidades */
+    background-color: #f2f2f2; /* Puedes cambiar el color de fondo según tu diseño */
+    border: solid 3px greenyellow;
+  }
+  
